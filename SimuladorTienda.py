@@ -276,7 +276,7 @@ def main():
                 print(Fore.RED + "El carrito de compras está vacío")
 
         elif opcion == "9":
-            print("Gracias por visitar la tienda. ¡Vuelve pronto!")
+            print("Gracias por visitar la tienda.")
             break
 
         else:
