@@ -1,5 +1,5 @@
 from colorama import init, Fore, Back, Style
-from modelos import Carrito, Producto, Tienda, ActualizacionCantidadPorNombre, ActualizacionCantidadPorCodigo, Descuento10Porciento, SinDescuento
+from Modelos import Carrito, Producto, Tienda, ActualizacionCantidadPorNombre, ActualizacionCantidadPorCodigo, Descuento10Porciento, SinDescuento
 from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
