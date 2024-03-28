@@ -188,14 +188,14 @@ def main():
     tienda.agregar_producto(Producto(5, "Medias", "Medias de lana", 15, "Ropa"))
     tienda.agregar_producto(Producto(6, "Gafas", "Gafas de sol", 20, "Accesorios"))
     tienda.agregar_producto(Producto(7, "Chaqueta", "Chaqueta de poliester", 35, "Ropa"))
-    
-    console = Console()
-    mensaje_bienvenida = "Bienvenido a la tienda de ropa de Tatiana"
-    texto_personalizado = Text(mensaje_bienvenida, style="bold magenta")
-    panel = Panel(texto_personalizado, title="", style="white on magenta", width=30, padding=(1, 2))
-    console.print(panel)
+
 
     while True:
+        console = Console()
+        mensaje_bienvenida = "Bienvenido a la tienda de ropa de Tatiana"
+        texto_personalizado = Text(mensaje_bienvenida, style="bold magenta")
+        panel = Panel(texto_personalizado, title="", style="white on magenta", width=30, padding=(1, 2))
+        console.print(panel)
         mostrar_menu()
         opcion = input("Seleccione una opción: ")
 
